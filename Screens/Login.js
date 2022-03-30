@@ -21,7 +21,6 @@ const Login = (props) => {
       <TouchableWithoutFeedback
         onPress={() => {
           Keyboard.dismiss();
-          console.log("keyboard is dismissed");
         }}
       >
         <View style={styles.container}>
