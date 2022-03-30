@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   View,
-  StyleSheet,
   Text,
-  FlatList,
   Keyboard,
   SafeAreaView,
   TextInput,
@@ -15,10 +13,9 @@ import {
   MaterialCommunityIcons,
   AntDesign,
 } from "@expo/vector-icons";
-
 import styles from "./Styles";
-
-const Login = () => {
+import BottomNav from "./BottomNav";
+const Login = (props) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <TouchableWithoutFeedback

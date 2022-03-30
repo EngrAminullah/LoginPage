@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     textAlign: "center",
     flexDirection: "row",
-    paddingLeft: 30,
+    paddingLeft: 20,
   },
   // header: {
   //   fontSize: 30,
