@@ -17,7 +17,7 @@ import styles from "./Styles";
 import BottomNav from "./BottomNav";
 const Login = (props) => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView name="Login" style={{ flex: 1 }}>
       <TouchableWithoutFeedback
         onPress={() => {
           Keyboard.dismiss();
