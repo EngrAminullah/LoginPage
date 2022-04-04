@@ -2,11 +2,12 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    backgroundColor: "white",
+    backgroundColor: "pink",
     flex: 1,
     marginVertical: 20,
     justifyContent: "center",
-    marginTop: 60,
+    marginTop: 20,
+    left: 10,
   },
 
   email: {
@@ -65,6 +66,14 @@ const styles = StyleSheet.create({
   // title: {
   //   fontSize: 25,
   // },
+  bigBlue: {
+    color: "blue",
+    fontWeight: "bold",
+    fontSize: 30,
+  },
+  red: {
+    color: "red",
+  },
 });
 
 export default styles;
